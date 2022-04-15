@@ -28,9 +28,8 @@ const nuevoModulo = 21 % 5 === 4.20
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  // "Return" la string provista: str
-  // Tu código: 
-  
+  return 
+
 }
 
 function suma(x, y) {
@@ -70,15 +69,28 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  var x = 2;
+  var y = 2;
+  }
+  if (x == y) {
+    console.log(true);
+  } else
+  console.log(false);
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  var str1 = 100;
+  var str2 = 100;
+  }
+  if (str1 == str2) {
+    console.log(true);
+  } else
+  console.log(false);
   
-}
+
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -166,6 +178,7 @@ function agregarSimboloExclamacion(str) {
 }
 
 function combinarNombres(nombre, apellido) {
+  
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
