@@ -37,7 +37,7 @@ if (status == 1) {
   return ("Online");
 }  if (status == 2) {
 return  ("Away");
-} return ("Offline")
+} return ("Offline");
 }
 
 function saludo(idioma) {
@@ -76,7 +76,7 @@ function colors(color) {
     case 'orange':
       return 'This is ' + color;
     default:
-      return 'Color not found'
+      return 'Color not found';
     }
 }
 
@@ -153,8 +153,7 @@ function esPrimo(numero) {
   // De lo contrario devuelve "falso"
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
-  // Nota: Los números 0 y 1 NO son considerados números primos
-  var  
+  // Nota: Los números 0 y 1 NO son considerados números primos 
   for (var w = 0; w < 11; w++)
 elseis.push(6 * w);
 return elseis
@@ -192,11 +191,6 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var x = ;
-  do {
-    return()
-  }
-
   }
 
 
